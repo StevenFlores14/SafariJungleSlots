@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_bottom_pics">8dp</dimen>
+
+    <!--TEXT-->
+    <dimen name="text_jackpot">28sp</dimen>
+    <dimen name="text_combinations">20sp</dimen>
+</resources>

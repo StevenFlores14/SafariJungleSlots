@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="490dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/setting_bg">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/close"/>
+
+        <ImageView
+            android:id="@+id/music_on"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/on"/>
+
+        <ImageView
+            android:id="@+id/music_off"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/off"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/sounds_on"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/on"/>
+
+        <ImageView
+            android:id="@+id/sounds_off"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/off"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/moreApps"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/sounds_off"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/btn_more"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
